@@ -1,5 +1,4 @@
 process.stdin.setEncoding('utf-8');
-console.log(process.env);
 process.stdin.on('readable', function() {
         // metoda .read() ma za zadanie odczytać co użytkownik podał na wejściu
     var input = process.stdin.read();
